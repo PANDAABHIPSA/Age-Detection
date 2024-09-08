@@ -1,0 +1,31 @@
+import pandas as pd
+
+from sklearn.model selection import train test_split from sklearn.linear model import LinearRegression from sklearn.netrics import mean_squared_error
+
+LOAD YOUR OWN DATASET
+
+dfpd.read csv('age data.csv")
+
+dropping catagorical colums df.drop("Gender", "Location", "Education level), axissi, inplace True)
+
+selecting my x and y
+
+Xdf.drop(Age", axis=1)
+
+y df Age
+
+x train, x test, y train, y test train test_split(x, y, test size=0.2, random state=42)
+
+model LinearRegression()
+
+model.fit(X_train, y train)
+
+y_pred model.predict(X_test)
+
+print("R2 SCORE, 2 score(y_test, y_pred))
+
+from sklearn.metrics import r2 score
+
+R2 SCORE 0.9519165799986644
+
+x test
